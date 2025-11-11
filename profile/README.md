@@ -429,13 +429,23 @@ python3 app.py
 
 **Optional**:
 
-1. **Let's Encrypt SSL** (production deployments):
+1. **Anthropic Claude API** (WintEHR AI features):
+   - **API Key**: From https://console.anthropic.com/
+   - **Purpose**: AI-powered clinical notes, decision support
+   - **Required**: No (AI features disabled without key)
+
+2. **Tavily API** (WintEHR web research):
+   - **API Key**: From https://tavily.com/
+   - **Purpose**: Web research for clinical references
+   - **Required**: No
+
+3. **Let's Encrypt SSL** (production deployments):
    - **Email**: For certificate notifications
    - **Domain**: Public DNS required (Azure: auto-assigned)
    - **Port 80/443**: Must be publicly accessible
    - **Required**: No (dev uses HTTP)
 
-2. **Authentication Providers** (Broadsea optional):
+4. **Authentication Providers** (Broadsea optional):
    - **LDAP/Active Directory**: Enterprise auth
    - **OAuth**: Google, GitHub, Facebook
    - **OpenID Connect**: SSO providers
