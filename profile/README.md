@@ -10,6 +10,8 @@
 
 The **ExCITE** ecosystem is an integrated collection of biomedical informatics platforms designed to support education, research, and clinical decision support. The system combines FHIR-native electronic health records, OHDSI observational research tools, interactive learning environments, and comprehensive educational management into a cohesive platform.
 
+We aim to build a community that builds an extensible foundation for teaching informatics concepts.
+
 ### Core Capabilities
 
 - 🏥 **Electronic Health Records** - Complete FHIR R4-native EHR system with clinical workflows
